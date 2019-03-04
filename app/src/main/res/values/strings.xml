@@ -1,13 +1,17 @@
 <resources>
-    <string name="app_name">Login 3in1 Test Java</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_test">TestActivity</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="app_name" translatable="false">Login 3in1 Test Java</string>
+    <string name="title_activity_main2" translatable="false">Test Task</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
     <string name="search">Search</string>
+    <string name="error_github">Error while loading Github users:</string>
+    <string name="error_api_google">Google Api Error:</string>
+    <string name="error_facebook">Facebook auth error:</string>
+    <string name="facebook_auth_cancelled">Facebook auth cancelled</string>
+    <string name="error_vk">VK error:</string>
+    <string name="please_login">Please login:</string>
+    <string name="vk_btn">Login with VK</string>
+    <string name="user_avatar">User Avatar</string>
+    <string name="log_out_btn">Log out</string>
 </resources>

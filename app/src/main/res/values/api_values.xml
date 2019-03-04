@@ -2,7 +2,7 @@
 <resources>
 
     <integer name="com_vk_sdk_AppId">6831696</integer>
-    <string name="facebook_app_id">1173742859454868</string>
-    <string name="fb_login_protocol_scheme">fb1173742859454868</string>
+    <string name="facebook_app_id" translatable="false">1173742859454868</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1173742859454868</string>
 
 </resources>

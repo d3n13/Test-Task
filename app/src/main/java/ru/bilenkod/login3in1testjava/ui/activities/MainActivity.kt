@@ -64,10 +64,10 @@ class MainActivity : AppCompatActivity(),
         sharedViewModel = ViewModelProviders.of(this).get(SharedViewModel::class.java)
 
         sharedViewModel.imageUrl.observe(this, Observer { s ->
-            if (!s.isNullOrBlank())
-                Picasso.get().load(s).transform(CircleTransform()).into(sidebarImage)
-            else
-                sidebarImage.setImageResource(R.drawable.ic_default_avatar)
+            Picasso.get()
+                    .load(s)
+                    .placeholder(R.drawable.ic_default_avatar)
+                    .transform(CircleTransform()).into(sidebarImage)
         })
 
         sharedViewModel.userName.observe(this, Observer { s -> sidebarName.text = s })

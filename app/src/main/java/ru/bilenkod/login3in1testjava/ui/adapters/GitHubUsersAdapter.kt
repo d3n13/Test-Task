@@ -33,6 +33,7 @@ class GitHubUsersAdapter
         Picasso.get()
                 .load(currentItem?.avatarUrl)
                 .transform(CircleTransform())
+                .placeholder(R.drawable.ic_default_avatar)
                 .into(holder.img)
     }
 

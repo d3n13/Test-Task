@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="com_vk_sdk_AppId">6831696</integer>
+    <string name="facebook_app_id">1173742859454868</string>
+    <string name="fb_login_protocol_scheme">fb1173742859454868</string>
+
+</resources>
